@@ -5,9 +5,9 @@
 
 - 🔭 I’m currently working on **Back-End Web Development**
 
-- 🌱 I’m currently learning **Machine Learning and React**
+- 🌱 I’m currently learning **Machine Learning and ReactJS**
 
-- 👯 I’m looking to collaborate on **Projects on Node.JS**
+- 👯 I’m looking to collaborate on **Projects on NodeJS**
 
 - 📫 How to reach me **mishrapeeyush212@gmail.com**
 
