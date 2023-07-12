@@ -3,11 +3,11 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=mishrapeeyush&label=Profile%20views&color=0e75b6&style=flat" alt="mishrapeeyush" /> </p>
 
-- 🔭 I’m currently working on **Full Stack Web Development**
+- 🔭 I’m currently working on **Back-End Web Development**
 
-- 🌱 I’m currently learning **Machine Learning and UI/UX designing**
+- 🌱 I’m currently learning **Machine Learning and React**
 
-- 👯 I’m looking to collaborate on **Projects and Hacks**
+- 👯 I’m looking to collaborate on **Projects on Node.JS**
 
 - 📫 How to reach me **mishrapeeyush212@gmail.com**
 
