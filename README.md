@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working as a Backend Developer at SchoolHack.AI and OnDemand.AI  <br>👯 I’m willing to collaborate on projects on NodeJs/GoLang<br>🌱 I’m currently learning Machine Learning<br>
+🔭 I’m currently working as a Backend Developer at SchoolHack.AI and OnDemand.AI  <br>👯 I’m willing to collaborate on projects on NodeJs/GoLang<br>🌱 I’m currently learning UI/UX Designing<br>
 
 
 ## 🌐 Socials:
