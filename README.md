@@ -27,8 +27,8 @@ Earlier: data analyst at a healthcare analytics company, and backend and data in
 ## What I've worked on
 
 - **Media pipelines.** Queue-driven processing for documents, audio, video and images: transcription, OCR, thumbnails and embeddings. Explicit retry rules, idempotent jobs and bounded concurrency so a bad file doesn't take the workers down.
-- **Retrieval.** Embeddings, hybrid dense and keyword search, reranking behind feature flags, and separate hot and cold vector collections.
-- **LLM gateway.** One interface over many model providers: streaming, tool calling, structured output, embeddings, reasoning controls, and OCR routing with fallbacks.
+- **Retrieval.** Vector search on top of model-generated embeddings: hybrid dense and keyword search, reranking behind feature flags, and separate hot and cold vector collections.
+- **LLM gateway.** One interface over many model providers: streaming, tool calling, structured output, reasoning controls, and OCR routing with fallbacks. It's also where embeddings are generated, with request chunking, configurable dimensions and several embedding providers.
 - **Agent orchestration.** Planning multi-step runs across plugins, validating parameters against JSON schemas, and streaming results back as they finish.
 - **Storage access.** Signed-URL access across several cloud storage providers, with ownership checks on every write and delete.
 - **Data collection.** Scraping plus LLM extraction, geo search, background jobs and push notifications for a consumer app backend.
