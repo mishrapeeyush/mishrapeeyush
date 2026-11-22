@@ -33,11 +33,29 @@ It's team work on shared codebases, so I describe what I've worked on rather tha
 ### Media pipelines
 Queue-driven processing for documents, audio, video and images: transcription, OCR, thumbnails and embeddings. Explicit retry rules, idempotent jobs and bounded concurrency, so one bad file can't take the workers down.
 
+<details>
+<summary>How it works</summary>
+
+- Each media type has its own chain of queue stages. A stage reports on a results queue, and that triggers the next one.
+- Jobs that can never succeed are skipped instead of retried forever, and completion events are idempotent.
+- Heavy steps, like vision calls on video frames, have a cap on how many run at once.
+
+</details>
+
 </td>
 <td width="50%" valign="top">
 
 ### Retrieval (RAG)
 Vector search on top of model-generated embeddings: hybrid dense and keyword search, reranking behind feature flags, and separate hot and cold vector collections.
+
+<details>
+<summary>How it works</summary>
+
+- Chunks are embedded as dense vectors plus keyword (BM25) vectors, so one search can use both.
+- A query runs both searches, fuses the results and filters to the user's own namespace.
+- Idle namespaces move to cold storage and come back on demand.
+
+</details>
 
 </td>
 </tr>
@@ -47,11 +65,29 @@ Vector search on top of model-generated embeddings: hybrid dense and keyword sea
 ### LLM gateway
 One interface over many model providers: streaming, tool calling, structured output, reasoning controls and OCR routing with fallbacks. Also where embeddings are generated, with request chunking, configurable dimensions and several providers.
 
+<details>
+<summary>How it works</summary>
+
+- Clients name an endpoint, and the gateway resolves it to a provider and model.
+- If a call fails in a way that's safe to retry elsewhere, it can route to a fallback endpoint.
+- Every call carries usage metadata (who, which operation) for cost tracking.
+
+</details>
+
 </td>
 <td valign="top">
 
 ### Agent orchestration
 Planning multi-step runs across plugins and MCP tools, validating parameters against JSON schemas, and streaming results back as each step finishes.
+
+<details>
+<summary>How it works</summary>
+
+- Goals are split into phases, and steps within a phase run in parallel.
+- An LLM fills in each step's parameters, which are checked against the tool's schema before anything runs.
+- A gate check after each phase decides whether the run can move on.
+
+</details>
 
 </td>
 </tr>
@@ -61,11 +97,29 @@ Planning multi-step runs across plugins and MCP tools, validating parameters aga
 ### Storage access
 Signed-URL access across several cloud storage providers, with ownership checks on every write and delete.
 
+<details>
+<summary>How it works</summary>
+
+- Clients get time-limited signed URLs for upload, fetch and delete, so file bytes don't pass through the service.
+- Company ownership is checked on writes, deletes and URL refreshes.
+- One interface sits in front of several storage providers.
+
+</details>
+
 </td>
 <td valign="top">
 
 ### Data collection
 Scraping plus LLM extraction, geo search, background jobs and push notifications for a consumer app backend.
+
+<details>
+<summary>How it works</summary>
+
+- Pages are scraped, then an LLM extracts structured fields.
+- Scheduled jobs clean up and refresh the data, such as daily expiry of old entries.
+- Geo queries find results near the user.
+
+</details>
 
 </td>
 </tr>
@@ -75,11 +129,29 @@ Scraping plus LLM extraction, geo search, background jobs and push notifications
 ### Sandboxed agent runtime
 Part of the team on the layer that runs coding agents in isolated containers: sandbox lifecycle and expiry, a browser tool for agents, artifact previews and thumbnails, and deployment listings.
 
+<details>
+<summary>How it works</summary>
+
+- Each session runs in its own container, with input guardrails and secret redaction.
+- A lease allows one run per session at a time.
+- Output files become previews, thumbnails and deployment entries.
+
+</details>
+
 </td>
 <td valign="top">
 
 ### Reliability
 Tracing and metrics, dependency patching, and security scans in CI. Retries that know when to give up, and idempotent jobs.
+
+<details>
+<summary>How it works</summary>
+
+- Distributed tracing and metrics on every service.
+- Dependency vulnerability patches, plus code, secret and container scans in CI.
+- Feature flags for risky changes, so they can be switched off fast.
+
+</details>
 
 </td>
 </tr>

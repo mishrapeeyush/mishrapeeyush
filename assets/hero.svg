@@ -5,27 +5,34 @@
 <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.2" fill="#30363d" opacity=".55"/></pattern>
 <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="40"/></filter>
 <clipPath id="c0"><rect x="74" y="88" height="40" width="0" class="t t0"/></clipPath>
-<style>.t0{animation:ty0 0.50s steps(6) 0.4s forwards}@keyframes ty0{to{width:78px}}</style>
 <clipPath id="c1"><rect x="50" y="122" height="40" width="0" class="t t1"/></clipPath>
-<style>.t1{animation:ty1 1.48s steps(33) 1.3s forwards}@keyframes ty1{to{width:477px}}</style>
 <clipPath id="c2"><rect x="74" y="176" height="40" width="0" class="t t2"/></clipPath>
-<style>.t2{animation:ty2 0.58s steps(13) 2.8s forwards}@keyframes ty2{to{width:159px}}</style>
 <clipPath id="c3"><rect x="50" y="208" height="40" width="0" class="t t3"/></clipPath>
-<style>.t3{animation:ty3 2.38s steps(53) 3.8s forwards}@keyframes ty3{to{width:623px}}</style>
 <clipPath id="c4"><rect x="74" y="262" height="40" width="0" class="t t4"/></clipPath>
-<style>.t4{animation:ty4 0.50s steps(3) 5.9s forwards}@keyframes ty4{to{width:43px}}</style>
 <clipPath id="c5"><rect x="50" y="294" height="40" width="0" class="t t5"/></clipPath>
-<style>.t5{animation:ty5 2.25s steps(50) 6.5s forwards}@keyframes ty5{to{width:588px}}</style>
 <style>
 text{font-family:SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;font-size:19px}
 .p{fill:#00ADD8;font-weight:700} .cmd{fill:#e6edf3} .out{fill:#8b949e} .hl{fill:#fff;font-weight:700;font-size:23px}
-.bar{fill:#7d8590;font-size:13px}
-.cur{fill:#00ADD8;opacity:0;animation:show 0s 8.8s forwards,blink 1.1s steps(1) 8.8s infinite}
-@keyframes show{to{opacity:1}} @keyframes blink{50%{opacity:0}}
+.tab{fill:#c9d1d9;font-size:13px} .cur{fill:#00ADD8;animation:blink 1.1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.t0{animation:ty0 18.0s linear infinite}@keyframes ty0{0%,2.778%{width:0;animation-timing-function:steps(6)}5.556%{width:78px}92.222%{width:78px}92.778%,100%{width:0}}
+.p0{opacity:0;animation:pp0 18.0s linear infinite}@keyframes pp0{0%,2.5%{opacity:0}2.778%,100%{opacity:1}}
+.t1{animation:ty1 18.0s linear infinite}@keyframes ty1{0%,7.778%{width:0;animation-timing-function:steps(33)}16.028%{width:477px}92.222%{width:477px}92.778%,100%{width:0}}
+.t2{animation:ty2 18.0s linear infinite}@keyframes ty2{0%,16.667%{width:0;animation-timing-function:steps(13)}19.917%{width:159px}92.222%{width:159px}92.778%,100%{width:0}}
+.p2{opacity:0;animation:pp2 18.0s linear infinite}@keyframes pp2{0%,16.389%{opacity:0}16.667%,100%{opacity:1}}
+.t3{animation:ty3 18.0s linear infinite}@keyframes ty3{0%,22.222%{width:0;animation-timing-function:steps(50)}34.722%{width:588px}92.222%{width:588px}92.778%,100%{width:0}}
+.t4{animation:ty4 18.0s linear infinite}@keyframes ty4{0%,34.444%{width:0;animation-timing-function:steps(11)}37.222%{width:136px}92.222%{width:136px}92.778%,100%{width:0}}
+.p4{opacity:0;animation:pp4 18.0s linear infinite}@keyframes pp4{0%,34.167%{opacity:0}34.444%,100%{opacity:1}}
+.t5{animation:ty5 18.0s linear infinite}@keyframes ty5{0%,38.889%{width:0;animation-timing-function:steps(50)}51.389%{width:588px}92.222%{width:588px}92.778%,100%{width:0}}
+.tb0{opacity:0;animation:tb0 18.0s linear infinite}@keyframes tb0{0%,2.172%{opacity:0}2.222%,15.505999999999998%{opacity:1}15.556%,100%{opacity:0}}
+.tb1{opacity:0;animation:tb1 18.0s linear infinite}@keyframes tb1{0%,15.505999999999998%{opacity:0}15.556%,33.283%{opacity:1}33.333%,100%{opacity:0}}
+.tb2{opacity:0;animation:tb2 18.0s linear infinite}@keyframes tb2{0%,33.283%{opacity:0}33.333%,92.172%{opacity:1}92.222%,100%{opacity:0}}
+.content{animation:fade 18.0s linear infinite}@keyframes fade{0%,86.667%{opacity:1}92.222%,100%{opacity:0}}
+.curw{opacity:0;animation:cw 18.0s linear infinite}@keyframes cw{0%,51.389%{opacity:0}51.667%,86.667%{opacity:1}92.222%,100%{opacity:0}}
 .glow1{animation:f1 9s ease-in-out infinite alternate} .glow2{animation:f2 11s ease-in-out infinite alternate}
 @keyframes f1{to{transform:translate(60px,30px)}} @keyframes f2{to{transform:translate(-70px,-20px)}}
 .sweep{animation:sw 6s linear infinite} @keyframes sw{from{transform:translateX(-300px)}to{transform:translateX(1200px)}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important} .t{width:800px!important} .cur{opacity:1}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important} .t{width:800px!important} .p{opacity:1!important} .curw{opacity:1!important} .tb2{opacity:1!important}}
 </style>
 <clipPath id="card"><rect x="2" y="2" width="896" height="376" rx="18"/></clipPath>
 </defs>
@@ -37,14 +44,16 @@ text{font-family:SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;font-
 <rect x="0" y="0" width="900" height="44" fill="#161b22"/>
 <rect class="sweep" x="0" y="42" width="200" height="2" fill="url(#hl)" opacity=".9"/>
 <circle cx="26" cy="22" r="6.5" fill="#ff5f56"/><circle cx="48" cy="22" r="6.5" fill="#ffbd2e"/><circle cx="70" cy="22" r="6.5" fill="#27c93f"/>
-<text x="450" y="27" text-anchor="middle" class="bar">peeyush@backend: ~</text>
-<text x="52" y="116" class="p">❯</text><g clip-path="url(#c0)"><text x="76" y="116" class="cmd">whoami</text></g>
+<g transform="translate(104,10)"><rect width="98" height="34" rx="8" fill="#0d1117" class="tb0"/><rect y="0" width="98" height="2" rx="1" fill="url(#hl)" class="tb0"/><text x="49.0" y="21" text-anchor="middle" class="tab">whoami</text></g><g transform="translate(210,10)"><rect width="116" height="34" rx="8" fill="#0d1117" class="tb1"/><rect y="0" width="116" height="2" rx="1" fill="url(#hl)" class="tb1"/><text x="58.0" y="21" text-anchor="middle" class="tab">stack.txt</text></g><g transform="translate(334,10)"><rect width="104" height="34" rx="8" fill="#0d1117" class="tb2"/><rect y="0" width="104" height="2" rx="1" fill="url(#hl)" class="tb2"/><text x="52.0" y="21" text-anchor="middle" class="tab">now.txt</text></g>
+<g class="content">
+<g><text x="52" y="116" class="p p0">❯</text><g clip-path="url(#c0)"><text x="76" y="116" class="cmd">whoami</text></g></g>
 <g clip-path="url(#c1)"><text x="52" y="150" class="out hl">Peeyush Mishra · backend engineer</text></g>
-<text x="52" y="204" class="p">❯</text><g clip-path="url(#c2)"><text x="76" y="204" class="cmd">cat stack.txt</text></g>
+<g><text x="52" y="204" class="p p2">❯</text><g clip-path="url(#c2)"><text x="76" y="204" class="cmd">cat stack.txt</text></g></g>
 <g clip-path="url(#c3)"><text x="52" y="236" class="out">Go · gRPC · RAG · agentic AI · MCP · vector search</text></g>
-<text x="52" y="290" class="p">❯</text><g clip-path="url(#c4)"><text x="76" y="290" class="cmd">now</text></g>
+<g><text x="52" y="290" class="p p4">❯</text><g clip-path="url(#c4)"><text x="76" y="290" class="cmd">cat now.txt</text></g></g>
 <g clip-path="url(#c5)"><text x="52" y="322" class="out">building AI backends @ OnDemand AI + SchoolHack AI</text></g>
-<rect x="638" y="304" width="11" height="24" class="cur" rx="2"/>
+<g class="curw"><rect x="638" y="304" width="11" height="24" rx="2" class="cur"/></g>
+</g>
 </g>
 <rect x="2" y="2" width="896" height="376" rx="18" fill="none" stroke="url(#g)" stroke-width="2"/>
 </svg>
