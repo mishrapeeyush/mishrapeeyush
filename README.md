@@ -8,6 +8,10 @@
 [![X](https://img.shields.io/badge/@mipeeyush-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/mipeeyush)
 ![Open to collaborating](https://img.shields.io/badge/Open_to-collaborating-2EA043?style=for-the-badge)
 
+<br/>
+
+<img src="assets/stack-marquee.svg" width="100%" alt="Technologies I work with: Go, gRPC, Redis, MongoDB, Qdrant, embeddings, hybrid search, LLM gateways, agents, Docker, Kubernetes and more." />
+
 </div>
 
 <br/>
@@ -16,28 +20,9 @@ I'm a backend engineer on AI products at **OnDemand AI** and **SchoolHack AI** (
 
 It's team work on shared codebases, so I describe what I've worked on rather than claim whole systems. I studied materials science at NIT Calicut, which is probably why I like measuring things before I believe them.
 
-<table>
-<tr>
-<td width="33%" valign="top">
-
-**Focus**<br/>
-LLM gateways, retrieval, media pipelines, agent orchestration
-
-</td>
-<td width="33%" valign="top">
-
-**Daily drivers**<br/>
-Go · gRPC · Redis queues · MongoDB · Qdrant
-
-</td>
-<td width="33%" valign="top">
-
-**Scale**<br/>
-A platform with 3.4M+ active users and 165M+ queries handled
-
-</td>
-</tr>
-</table>
+<div align="center">
+<img src="assets/stats.svg" width="100%" alt="3.4M+ active users, 165M+ queries handled, 15+ model providers, 9 media job types." />
+</div>
 
 ## What I've worked on
 
@@ -84,9 +69,31 @@ Scraping plus LLM extraction, geo search, background jobs and push notifications
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+### Sandboxed agent runtime
+Part of the team on the layer that runs coding agents in isolated containers: sandbox lifecycle and expiry, a browser tool for agents, artifact previews and thumbnails, and deployment listings.
+
+</td>
+<td valign="top">
+
+### Reliability
+Tracing and metrics, dependency patching, and security scans in CI. Retries that know when to give up, and idempotent jobs.
+
+</td>
+</tr>
 </table>
 
 Most of this is in private company repos, so there isn't much to show here. Happy to talk through any of it.
+
+## How the pieces fit
+
+<div align="center">
+<img src="assets/platform.svg" width="100%" alt="Platform map: apps call an orchestrator, which routes to an LLM gateway, a sandboxed agent runtime, media workers and storage access, backed by MongoDB, Redis queues and Qdrant." />
+</div>
+
+A simplified view of the kind of platform I work on. Each box is its own service, and they talk over gRPC and job queues.
 
 ## How a retrieval pipeline flows
 
@@ -100,7 +107,7 @@ Most of this is in private company repos, so there isn't much to show here. Happ
 <summary><b>OnDemand AI</b> · Senior Software Engineer · Aug 2025 to now</summary>
 <br/>
 
-Contributing across the platform's Go services: LLM gateway, media pipeline, storage and agent orchestration, plus custom solutions for clients.
+Contributing across the platform's Go services: LLM gateway, media pipeline, storage, agent orchestration and the sandboxed agent runtime, plus custom solutions for clients.
 
 Before that, **Software Engineer** (Mar 2024 to Jul 2025): queue-driven media processing, embeddings and search, and the services around them.
 
