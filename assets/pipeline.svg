@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 170" width="1000" height="170" role="img" aria-label="Retrieval pipeline: ingest, extract, embed, index, search, rerank, LLM, answer with sources">
+<defs>
+<linearGradient id="d" x1="0" x2="1"><stop offset="0" stop-color="#00ADD8"/><stop offset=".5" stop-color="#8B5CF6"/><stop offset="1" stop-color="#2EA043"/></linearGradient>
+<filter id="gl" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="3"/></filter>
+<style>
+text{font-family:SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+.nt{fill:#e6edf3;font-size:15px;font-weight:700} .ns{fill:#8b949e;font-size:10.5px} .num{font-size:11px;font-weight:700;opacity:.9}
+.ln{stroke:#484f58;stroke-width:2;stroke-dasharray:5 5;animation:dash 1s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-10}}
+.node{animation:pulse 4.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}45%{opacity:1}50%{opacity:.55}60%{opacity:1}}
+.cap{fill:#8b949e;font-size:12px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+</defs>
+<rect x="1" y="1" width="998" height="168" rx="16" fill="#0d1117" stroke="#30363d"/>
+<line x1="122" y1="94.0" x2="148" y2="94.0" class="ln"/>
+<line x1="244" y1="94.0" x2="270" y2="94.0" class="ln"/>
+<line x1="366" y1="94.0" x2="392" y2="94.0" class="ln"/>
+<line x1="488" y1="94.0" x2="514" y2="94.0" class="ln"/>
+<line x1="610" y1="94.0" x2="636" y2="94.0" class="ln"/>
+<line x1="732" y1="94.0" x2="758" y2="94.0" class="ln"/>
+<line x1="854" y1="94.0" x2="880" y2="94.0" class="ln"/>
+<g class="node" style="animation-delay:0.00s"><rect x="26" y="62" width="96" height="64" rx="12" fill="#161b22" stroke="#00ADD8" stroke-width="1.6"/><text x="74.0" y="90" text-anchor="middle" class="nt">Ingest</text><text x="74.0" y="110" text-anchor="middle" class="ns">docs, media</text><text x="36" y="52" class="num" fill="#00ADD8">01</text></g>
+<g class="node" style="animation-delay:0.55s"><rect x="148" y="62" width="96" height="64" rx="12" fill="#161b22" stroke="#00ADD8" stroke-width="1.6"/><text x="196.0" y="90" text-anchor="middle" class="nt">Extract</text><text x="196.0" y="110" text-anchor="middle" class="ns">OCR, ASR</text><text x="158" y="52" class="num" fill="#00ADD8">02</text></g>
+<g class="node" style="animation-delay:1.10s"><rect x="270" y="62" width="96" height="64" rx="12" fill="#161b22" stroke="#8B5CF6" stroke-width="1.6"/><text x="318.0" y="90" text-anchor="middle" class="nt">Embed</text><text x="318.0" y="110" text-anchor="middle" class="ns">dense + sparse</text><text x="280" y="52" class="num" fill="#8B5CF6">03</text></g>
+<g class="node" style="animation-delay:1.65s"><rect x="392" y="62" width="96" height="64" rx="12" fill="#161b22" stroke="#8B5CF6" stroke-width="1.6"/><text x="440.0" y="90" text-anchor="middle" class="nt">Index</text><text x="440.0" y="110" text-anchor="middle" class="ns">vector DB</text><text x="402" y="52" class="num" fill="#8B5CF6">04</text></g>
+<g class="node" style="animation-delay:2.20s"><rect x="514" y="62" width="96" height="64" rx="12" fill="#161b22" stroke="#FF6AC1" stroke-width="1.6"/><text x="562.0" y="90" text-anchor="middle" class="nt">Search</text><text x="562.0" y="110" text-anchor="middle" class="ns">hybrid</text><text x="524" y="52" class="num" fill="#FF6AC1">05</text></g>
+<g class="node" style="animation-delay:2.75s"><rect x="636" y="62" width="96" height="64" rx="12" fill="#161b22" stroke="#FF6AC1" stroke-width="1.6"/><text x="684.0" y="90" text-anchor="middle" class="nt">Rerank</text><text x="684.0" y="110" text-anchor="middle" class="ns">by relevance</text><text x="646" y="52" class="num" fill="#FF6AC1">06</text></g>
+<g class="node" style="animation-delay:3.30s"><rect x="758" y="62" width="96" height="64" rx="12" fill="#161b22" stroke="#2EA043" stroke-width="1.6"/><text x="806.0" y="90" text-anchor="middle" class="nt">LLM</text><text x="806.0" y="110" text-anchor="middle" class="ns">providers</text><text x="768" y="52" class="num" fill="#2EA043">07</text></g>
+<g class="node" style="animation-delay:3.85s"><rect x="880" y="62" width="96" height="64" rx="12" fill="#161b22" stroke="#2EA043" stroke-width="1.6"/><text x="928.0" y="90" text-anchor="middle" class="nt">Answer</text><text x="928.0" y="110" text-anchor="middle" class="ns">with sources</text><text x="890" y="52" class="num" fill="#2EA043">08</text></g>
+<g><circle r="6" fill="#fff" filter="url(#gl)"><animateMotion dur="4.4s" repeatCount="indefinite" path="M122 94.0 H880"/></circle><circle r="3.5" fill="#fff"><animateMotion dur="4.4s" repeatCount="indefinite" path="M122 94.0 H880"/></circle></g>
+<text x="500" y="152" text-anchor="middle" class="cap">most bad answers start on the left: extraction, chunking, search. The model is rarely the weak link.</text>
+</svg>
