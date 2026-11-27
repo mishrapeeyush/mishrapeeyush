@@ -16,6 +16,8 @@ It's team work on shared codebases, so I describe what I've worked on rather tha
 <img src="assets/stats.svg" width="100%" alt="3.4M+ active users, 165M+ queries handled, 15+ model providers, 9 media job types." />
 </div>
 
+<div align="center"><img src="assets/divider.svg" width="100%" alt="" /></div>
+
 ## What I work on
 
 <table>
@@ -63,6 +65,8 @@ Tracing and metrics, dependency patching, security scans in CI, and signed-URL s
 </tr>
 </table>
 
+<div align="center"><img src="assets/divider.svg" width="100%" alt="" /></div>
+
 ## How it fits together
 
 <div align="center">
@@ -85,6 +89,8 @@ Tracing and metrics, dependency patching, security scans in CI, and signed-URL s
 
 </details>
 
+<div align="center"><img src="assets/divider.svg" width="100%" alt="" /></div>
+
 ## Experience
 
 **OnDemand AI**, Senior Software Engineer, Aug 2025 to now. Software Engineer from Mar 2024. Contributing across the platform's Go services, plus custom solutions for clients.
@@ -93,6 +99,14 @@ Tracing and metrics, dependency patching, security scans in CI, and signed-URL s
 
 Earlier: data analyst at a healthcare analytics company, and backend and data internships. B.Tech in Materials Science, NIT Calicut.
 
+<div align="center"><img src="assets/divider.svg" width="100%" alt="" /></div>
+
 ## Get in touch
 
 Open to collaborating on Go, RAG and agent projects. [LinkedIn](https://linkedin.com/in/peeyush-m) · [X](https://x.com/mipeeyush)
+
+<div align="center">
+
+<img src="assets/footer.svg" width="100%" alt="Terminal: ./collaborate with Go, RAG and agent projects. Exit 0." />
+
+</div>
