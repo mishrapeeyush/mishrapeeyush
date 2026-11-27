@@ -1,8 +1,13 @@
 <div align="center">
 
-<img src="assets/hero.svg" width="100%" alt="Terminal: Peeyush Mishra, backend engineer. Go, gRPC, RAG, agentic AI, MCP, vector search." />
+<a href="#what-i-work-on"><img src="assets/hero.svg" width="100%" alt="Terminal: Peeyush Mishra, backend engineer. Go, gRPC, RAG, agentic AI, MCP, vector search." /></a>
 
-<img src="assets/stack-marquee.svg" width="100%" alt="Technologies: Go, gRPC, RAG, agentic AI, MCP, tool calling, vector search, embeddings, hybrid search, reranking, LLM gateway, streaming, Redis, MongoDB, Qdrant, Docker, Kubernetes, OpenTelemetry." />
+<a href="#what-i-work-on"><img src="assets/stack-marquee.svg" width="100%" alt="Technologies: Go, gRPC, RAG, agentic AI, MCP, tool calling, vector search, embeddings, hybrid search, reranking, LLM gateway, streaming, Redis, MongoDB, Qdrant, Docker, Kubernetes, OpenTelemetry." /></a>
+
+[![work.go](https://img.shields.io/badge/WORK.GO-00ADD8?style=for-the-badge)](#what-i-work-on)
+[![architecture.md](https://img.shields.io/badge/ARCHITECTURE.MD-8B5CF6?style=for-the-badge)](#how-it-fits-together)
+[![experience.log](https://img.shields.io/badge/EXPERIENCE.LOG-FF6AC1?style=for-the-badge)](#experience)
+[![contact.sh](https://img.shields.io/badge/CONTACT.SH-2EA043?style=for-the-badge)](#get-in-touch)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-peeyush--m-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/peeyush-m)
 [![X](https://img.shields.io/badge/@mipeeyush-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/mipeeyush)
