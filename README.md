@@ -22,6 +22,41 @@ It's team work on shared codebases, so I describe what I've worked on rather tha
 <img src="assets/stats.svg" width="100%" alt="3.4M+ active users, 165M+ queries handled, 15+ model providers, 9 media job types." />
 </div>
 
+## Selected work
+
+Most of my day-to-day work lives in private company repositories. These are public:
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**[SMSE AI Toolkit](https://github.com/mishrapeeyush/SMSE-AI-TOOLKIT-Website)** · TypeScript<br/>
+A website hosting mini projects across materials science and computer science. [Live demo](https://smse-toolkit.vercel.app)
+
+</td>
+<td width="50%" valign="top">
+
+**[AgentAIWithRAG](https://github.com/mishrapeeyush/AgentAIWithRAG)** · Python<br/>
+AI agents powered by a custom RAG pipeline.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**[Concert Ticket Booking App](https://github.com/mishrapeeyush/Concert-Ticket-Booking-App)** · Go<br/>
+Ticket booking built on Go fundamentals, with goroutines handling concurrent bookings.
+
+</td>
+<td valign="top">
+
+**[Steel Alloy Prediction Model](https://github.com/mishrapeeyush/Steel-Alloy-Prediction-Model)** · Jupyter<br/>
+Multiple linear regression predicting proof strength, tensile strength, elongation and reduction in area.
+
+</td>
+</tr>
+</table>
+
 ## What I work on
 
 <table>
