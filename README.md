@@ -1,6 +1,7 @@
 <div align="center">
 
-<a href="#what-i-work-on"><img src="assets/hero.svg" width="100%" alt="Terminal: Peeyush Mishra, backend engineer. Go, gRPC, RAG, agentic AI, MCP, vector search." /></a>
+<div><a href="#start-of-content"><img src="assets/hero-a.svg" width="11.556%" align="top" alt="Terminal window controls" /></a><a href="#what-i-work-on"><img src="assets/hero-t0.svg" width="11.333%" align="top" alt="main.go: what I work on" /></a><a href="#how-it-fits-together"><img src="assets/hero-t1.svg" width="13.778%" align="top" alt="stack.yaml: how it fits together" /></a><a href="#experience"><img src="assets/hero-t2.svg" width="12.000%" align="top" alt="now.md: experience" /></a><a href="#start-of-content"><img src="assets/hero-f.svg" width="51.333%" align="top" alt="" /></a></div>
+<div><a href="#what-i-work-on"><img src="assets/hero-body.svg" width="100%" align="top" alt="Terminal: Peeyush Mishra, backend engineer. Go, gRPC, RAG, agentic AI, MCP, vector search. Building AI backends at OnDemand AI and SchoolHack AI." /></a></div>
 
 <a href="#what-i-work-on"><img src="assets/stack-marquee.svg" width="100%" alt="Technologies: Go, gRPC, RAG, agentic AI, MCP, tool calling, vector search, embeddings, hybrid search, reranking, LLM gateway, streaming, Redis, MongoDB, Qdrant, Docker, Kubernetes, OpenTelemetry." /></a>
 
