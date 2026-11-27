@@ -4,13 +4,13 @@
 
 <a href="#what-i-work-on"><img src="assets/stack-marquee.svg" width="100%" alt="Technologies: Go, gRPC, RAG, agentic AI, MCP, tool calling, vector search, embeddings, hybrid search, reranking, LLM gateway, streaming, Redis, MongoDB, Qdrant, Docker, Kubernetes, OpenTelemetry." /></a>
 
-[![work.go](https://img.shields.io/badge/WORK.GO-00ADD8?style=for-the-badge)](#what-i-work-on)
-[![architecture.md](https://img.shields.io/badge/ARCHITECTURE.MD-8B5CF6?style=for-the-badge)](#how-it-fits-together)
-[![experience.log](https://img.shields.io/badge/EXPERIENCE.LOG-FF6AC1?style=for-the-badge)](#experience)
-[![contact.sh](https://img.shields.io/badge/CONTACT.SH-2EA043?style=for-the-badge)](#get-in-touch)
+[![work.go](https://img.shields.io/badge/WORK.GO-0E7490?style=for-the-badge&labelColor=161b22)](#what-i-work-on)
+[![architecture.md](https://img.shields.io/badge/ARCHITECTURE.MD-6D28D9?style=for-the-badge&labelColor=161b22)](#how-it-fits-together)
+[![experience.log](https://img.shields.io/badge/EXPERIENCE.LOG-BE185D?style=for-the-badge&labelColor=161b22)](#experience)
+[![contact.sh](https://img.shields.io/badge/CONTACT.SH-15803D?style=for-the-badge&labelColor=161b22)](#get-in-touch)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-peeyush--m-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/peeyush-m)
-[![X](https://img.shields.io/badge/@mipeeyush-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/mipeeyush)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-peeyush--m-0A66C2?style=for-the-badge&labelColor=161b22&logo=linkedin&logoColor=white)](https://linkedin.com/in/peeyush-m)
+[![X](https://img.shields.io/badge/X-@mipeeyush-1F2328?style=for-the-badge&labelColor=161b22&logo=x&logoColor=white)](https://x.com/mipeeyush)
 
 </div>
 
